@@ -1,0 +1,1 @@
+export const JsonUrl = 'https://rcslabs.ru/locations.json';
