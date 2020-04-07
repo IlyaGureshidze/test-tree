@@ -8,7 +8,8 @@
     "watch": "webpack --mode development --watch",
     "dev": "NODE_ENV=development webpack --mode development  --config ./webpack.dev.config.js",
     "test": "jest",
-    "clean": "rm -rf ./dist"
+    "clean": "rm -rf ./dist",
+    "start": "NODE_ENV=development webpack --config webpack.dev.config.js"
   },
   "author": "",
   "license": "ISC",
